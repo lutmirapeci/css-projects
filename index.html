@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Heaven</title>
+    <link rel="stylesheet" href="./src/styles/style.css" />
+
+    <!-- Latest Font-Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+
+    <!-- Montserrat font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="section colored">
+      <div class="wrap">
+        <h1>Flower Haven</h1>
+        <p class="desc">Your Source for Beautiful Blooms</p>
+        <p>
+          Welcome to Flower Haven, your go-to destination for the freshest and
+          most stunning flowers. Our passion is to spread joy and beauty through
+          the art of floral arrangements. With a wide variety of flowers to
+          choose from, we create arrangements for every occasion.
+        </p>
+        <div class="image-cont">
+          <img src="./src/images/flowers.jpg" alt />
+        </div>
+      </div>
+    </header>
+
+    <!-- Arrangements -->
+    <div class="arrangements section wrap">
+      <h2>Featured Arrangements</h2>
+
+      <div class="arrangement-items">
+        <h3>Spring Blossoms</h3>
+        <p class="desc">Posted on March 25, 2024</p>
+        <p>
+          Discover the beauty of spring with our exquisite Spring Blossoms
+          arrangement. Bursting with vibrant colors and fragrant blooms, it's a
+          celebration of nature's renewal.
+        </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+
+      <div class="arrangement-items">
+        <h3>Romantic Elegance</h3>
+        <p class="desc">Posted on March 28, 2024</p>
+        <p>
+          Elevate the romance with our Romantic Elegance bouquet. A perfect
+          blend of red roses and delicate accents, it's the ideal choice for
+          expressing love and admiration.
+        </p>
+        <a href="#" class="btn">Explore Now</a>
+      </div>
+
+      <div class="arrangement-items">
+        <h3>Festive Joy</h3>
+        <p class="desc">Posted on March 31, 2024</p>
+        <p>
+          Spread joy and happiness with our Festive Joy arrangement. Bursting
+          with cheerful colors and seasonal delights, it's the perfect choice
+          for any celebration or occasion.
+        </p>
+        <a href="#" class="btn">View Details</a>
+      </div>
+    </div>
+
+    <!-- Product Information -->
+    <div class="product-info section wrap">
+      <h2>Product Information</h2>
+
+      <table class="product-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rose Bouquet</td>
+            <td>A classic arrangement of red roses.</td>
+            <td>$29.99</td>
+          </tr>
+          <tr>
+            <td>Lily Arrangement</td>
+            <td>Elegant lilies in a beautifully crafted bouquet.</td>
+            <td>$39.99</td>
+          </tr>
+          <tr>
+            <td>Sunflower Bouquet</td>
+            <td>Bright and cheerful sunflowers in a stunning arrangement.</td>
+            <td>$34.99</td>
+          </tr>
+          <tr>
+            <td>Tulip Mix</td>
+            <td>A delightful mix of colorful tulips.</td>
+            <td>$32.99</td>
+          </tr>
+          <tr>
+            <td>Orchid Elegance</td>
+            <td>Exotic orchids arranged with elegance.</td>
+            <td>$49.99</td>
+          </tr>
+          <tr>
+            <td>Wildflower Basket</td>
+            <td>A charming basket filled with a variety of wildflowers.</td>
+            <td>$27.99</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact section colored">
+      <div class="wrap">
+        <h2>Contact Us</h2>
+        <p>Have a question or need assistance? Reach out to us!</p>
+
+        <form>
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <br />
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <br />
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message:</label>
+            <br />
+            <textarea id="message" name="message" rows="10" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="social-share section wrap">
+      <h2>Connect with Us</h2>
+
+      <div class="social-icons">
+        <a href="#" target="_blank">
+          <i class="fa-2x fab fa-facebook-square"></i>
+        </a>
+
+        <a href="#" target="_blank">
+          <i class="fa-2x fab fa-twitter-square"></i>
+        </a>
+
+        <a href="#" target="_blank">
+          <i class="fa-2x fab fa-instagram"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

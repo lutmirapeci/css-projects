@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    color: #333;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p,
+  ul,
+  ol { margin-top: 0; }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h1,
+  h2{
+    color: #8cc84b;
+    text-align: center;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .btn {
+    color: #8cc84b;
+    background-color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color .3s ease-out, background-color .3s ease-out;
+    border: 2px solid #8cc84b;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: #8cc84b;
+    color: #fff;
+  }
+  
+  .wrap {
+    max-width: 80%;
+    margin: 0 auto; /* Adds spacing top and bottom */
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section:not(.colored) + .section:not(.colored) {
+    padding-top: 0;
+  }
+  
+  .desc,
+  .contact form label {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  /* ____________________________________________ */
+  
+  header {
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  header .image-cont {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* ____________________________________________ */
+  
+  .about .inner {
+    background-color: #fff;
+    padding: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* ____________________________________________ */
+  
+  .arrangements .arrangement-items:not(:last-child) {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #8cc84b;
+  }
+  
+  .arrangements .date {
+    margin-bottom: 10px;
+  }
+  
+  .arrangements .desc {
+    margin-bottom: 20px;
+  }
+  
+  /* ____________________________________________ */
+  
+  .product-table {
+    width: 100%;
+  }
+  
+  .product-table td {
+      border: 2px solid #8cc84b;
+      padding: 10px;
+  }
+  
+  .product-table th {
+    border: 2px solid #8cc84b;
+    background-color: #8cc84b;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* ____________________________________________ */
+  
+  .contact {
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .contact form {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .contact form .form-group:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #8cc84b;
+    border-radius: 4px;
+  }
+  
+  .contact form input:focus,
+  .contact form textarea:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  /* ____________________________________________ */
+  
+  .social-share .social-icons {
+    text-align: center;
+  }
+  
+  .social-share .social-icons a {
+    text-decoration: none;
+    color: #333;
+    transition: color .3s ease-out;
+  }
+  
+  .social-share .social-icons a:hover {
+    color: #8cc84b;
+  }
+  
+  .social-share .social-icons a:not(:last-child) {
+    margin-right: 30px;
+  }
+  
