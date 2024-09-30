@@ -1,0 +1,17 @@
+imgs:
+
+01. https://i.picsum.photos/id/426/400/300.jpg
+02. https://i.picsum.photos/id/427/400/300.jpg
+03. https://i.picsum.photos/id/428/400/300.jpg
+04. https://images.pexels.com/photos/1268551/pexels-photo-1268551.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+05. https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+06. https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+07. https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+
+colors:
+nav-color: #f3f3f3
+lightblue: #9cdaf1
+green: #a7c3a7
+pink: #ffd5b3
+50/50 holder bg: lightgrey
+social icons bg: grey
