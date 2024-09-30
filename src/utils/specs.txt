@@ -1,0 +1,28 @@
+images:
+logo - https://tapoueh.org/img/lorem-ipsum-logo.png
+
+1. https://www.att.com/catalog/en/idse/Apple/Apple%20iPhone%2011%20Pro%20Max/Midnight%20Green-hero-zoom.png
+2.https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-x.jpg
+3.https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-7r4.jpg
+4.https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6-4.jpg
+5.https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2020.jpg
+6.https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQaAsgTeqAvnSoRNNGCHZEOMj58s4DwpAXR3HAr3xNmls2sicsU&usqp=CAU
+7.https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/1200px-MasterCard_Logo.svg.png
+8.https://pioneers.io/themes/pioneers//assets/visaopen.jpg
+
+colors:
+
+body-color - #ebeef4
+menu-links bg-hover - rgba(201, 210, 227, 0.5)
+blue - #1f6bff
+pink - #e15671
+orange - #ff784a
+purple - #8845f5
+green - #0aab7b
+white-opacity- rgba(255, 255, 255, 0.8)
+border-colors - #dae0ec
+button bg - #fc0
+button bg hover - #d9ad00
+text-dark - #212837
+text-light - #3c4e71
+progress-bar-bg - rgba(0, 0, 0, 0.5)
